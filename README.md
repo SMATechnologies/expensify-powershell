@@ -1,19 +1,25 @@
-# Project Name
-Project description
+# Expensify API with Powershell
+This module of API functions shows how you can get a specific Policy, a list of Policies, and add tags to a Policy through the Expensify API and Powershell.
+
+# Prerequisites
+* Powershell v5.1
+* <a href url="https://integrations.expensify.com/Integration-Server/doc/">Expensify</a>
+
+# Instructions
+To use the module you will need to import it into your Powershell script.  You will also need to obtain a PartnerID and PartnerSecret from your Expensify account.
+
+Example:
+```
+Import-Module "C:\Expensify_Module.psm1" -Force
+```
 
 # Disclaimer
 No Support and No Warranty are provided by SMA Technologies for this project and related material. The use of this project's files is on your own risk.
 
 SMA Technologies assumes no liability for damage caused by the usage of any of the files offered here via this Github repository.
 
-# Prerequisites
-
-
-# Instructions
-
-
 # License
-Copyright 2019 SMA Technologies
+Copyright 2020 SMA Technologies
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
